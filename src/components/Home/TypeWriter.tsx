@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import React ,{useState, useEffect}from 'react'
 // import "@/app/globals.css"
 
@@ -53,7 +53,7 @@ function TypeWriter() {
    
 
     return (
-    <div className=' text-6xl flex'>
+    <div className='flex'>
         <span>{currentWord}</span><div className='bg-Custom-red w-1 animate-blink-fast'></div>
     </div>
     );

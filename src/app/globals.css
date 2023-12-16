@@ -20,3 +20,15 @@
 .animate-blink-fast {
     animation: blink-fast 0.8s infinite;
 }
+
+
+.TitlePage {
+    color: transparent;
+    -webkit-text-stroke: 3px #383838 ;
+    text-align: end;
+}
+.TitlePage--variantRed {
+    color: transparent;
+    -webkit-text-stroke: 3px #F80040  ;
+    text-align: end;
+}
