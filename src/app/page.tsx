@@ -1,6 +1,6 @@
 import React from 'react'
-import Home from './(pages)/Home'
-import AboutPage from './(pages)/AboutPage'
+import Home from '../components/Pages/Home'
+import AboutPage from '../components/Pages/AboutPage'
 
 export default function Principal() {
   return (
