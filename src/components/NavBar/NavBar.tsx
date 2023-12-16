@@ -9,10 +9,10 @@ export default function NavBar() {
             <TittleNav title={"JonatanDLR"} />
             <div className='flex justify-center items-center'>
                 <div className='grid grid-cols-4 gap-3 pr-2'>
-                    <SubTitleNav index="01." title=" Home" />
-                    <SubTitleNav index="02." title=" About Me" />
-                    <SubTitleNav index="03." title=" Experience" />
-                    <SubTitleNav index="04." title=" Proyects" />
+                    <SubTitleNav index="01." title=" Home" href='#'/>
+                    <SubTitleNav index="02." title=" About Me" href='#About'/>
+                    <SubTitleNav index="03." title=" Experience" href='#' />
+                    <SubTitleNav index="04." title=" Proyects" href='#'/>
                 </div>
                 <ButtonResume />
             </div>

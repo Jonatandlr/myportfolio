@@ -1,18 +1,17 @@
 import GridSimpleCard from '@/components/About/GridSimpleCard'
-
 import TittlePage from '@/components/TittlePage'
 import useCurrentTecnologies from '@/hooks/useCurrentTecnologies'
 import React from 'react'
+import SkillComponent from '../About/SkillComponent'
 
 export default function AboutPage() {
     const currentTec = useCurrentTecnologies()
     return (
-        <div className='lg:px-28 lg:py-10 md:px-10 px-5'>
+        <div id="About" className='lg:px-28 lg:py-10 md:px-10 px-5'>
             <div className='lg:my-10 my-1'>
                 <TittlePage title='About Me' index='02.' />
             </div>
-
-            <div className='font-bold text-5xl lg:flex lg:flex-row flex-col justify-evenly items-center'>
+            <div className='font-bold text-5xl lg:flex lg:flex-row flex-col justify-evenly items-center lg:mb-10'>
                 <div className='mr-3 mb-5'>
                     <div className='lg:mb-5 my-1 font-semibold 2xl:text-5xl lg:text-4xl md:text-3xl text-2xl' >
                         <h4>Hi<span className="text-Custom-red">!</span> Im <span className='text-Custom-red'>Jonatan</span></h4>
@@ -31,6 +30,9 @@ export default function AboutPage() {
                     </div>
                 </div>
             </div>
+
+            <SkillComponent />
+
 
         </div>
     )
