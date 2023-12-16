@@ -15,7 +15,7 @@ export default function AboutPage() {
             <div className='font-bold text-5xl lg:flex lg:flex-row flex-col justify-evenly items-center'>
                 <div className='mr-3 mb-5'>
                     <div className='lg:mb-5 my-1 font-semibold 2xl:text-5xl lg:text-4xl md:text-3xl text-2xl' >
-                        <h4>Hi<span className='text-Custom-red'>!</span> I'm <span className='text-Custom-red'>Jonatan</span></h4>
+                        <h4>Hi<span className="text-Custom-red">!</span> Im <span className='text-Custom-red'>Jonatan</span></h4>
                     </div>
                     <p className='md:w-[588px] w-fit text-black 2xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-normal'>
                         Mechatronics Engineering student at Tecnológico de Monterrey with a passion for robotics and

@@ -38,7 +38,7 @@ export default function Home() {
                 transition={{ duration: 1, delay: 0.5 }}
                 className='font-bold  text-center flex 2xl:text-6xl lg:text-5xl md:text-4xl text-3xl'
             >
-                I'm<span className='text-transparent'>/</span><TypeWriter />
+                Im<span className='text-transparent'>/</span><TypeWriter />
             </motion.span>
             <motion.div
                 variants={inicioElements}
