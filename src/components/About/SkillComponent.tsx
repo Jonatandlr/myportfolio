@@ -16,7 +16,7 @@ export default function SkillComponent() {
       }
     }
   return (
-    <div className='w-full bg-Custom-blueDark rounded-[20px] p-10 flex'>
+    <div className='lg:w-full w-fit bg-Custom-blueDark rounded-[20px] p-10 flex lg:flex-row flex-col items-center'>
         <MenuSkills items={MenuS} activeMenu={activeMenu}/>
         <InfoDisplay active={active as "pL" | "Tec" | "Mech" | "sF"} info={skillInfo}/>
     </div>

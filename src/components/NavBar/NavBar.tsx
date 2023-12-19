@@ -4,7 +4,7 @@ import SubTitleNav from './SubTitleNav'
 import ButtonResume from './ButtonResume'
 export default function NavBar() {
     return (
-        <div className='font-Poppins fixed w-screen text-white bg-black bg-opacity-30 lg:px-20 px-10 py-3 flex justify-between items-center'>
+        <div className='font-Poppins fixed w-screen text-white bg-black bg-opacity-30 lg:px-20 md:px-10 px-1 py-3 flex justify-between items-center'>
 
             <TittleNav title={"JonatanDLR"} />
             <div className='flex justify-center items-center'>

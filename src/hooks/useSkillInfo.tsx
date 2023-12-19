@@ -47,12 +47,12 @@ const useSkillInfo = () => {
                 name: "CSS3",
             },
             {
-                icon: "/images/Icons/nextjs.svg",
-                name: "NextJS",
-            },
-            {
                 icon: "/images/Icons/html.svg",
                 name: "HTML",
+            },
+            {
+                icon: "/images/Icons/nextjs.svg",
+                name: "NextJS",
             },
             {
                 icon: "/images/Icons/react.svg",
@@ -76,13 +76,13 @@ const useSkillInfo = () => {
             },
             {
                 icon: "/images/Icons/tailwind.svg",
-                name: "TailwindCSS",
+                name: "Tailwind",
             },
             {
-                icon: "/images/Icons/github.svg",
-                name: "Github",
+                icon: "/images/Icons/framer.png",
+                name: "Framer",
             }
-
+            
         ],
         Mech: [
             {
@@ -99,9 +99,10 @@ const useSkillInfo = () => {
                 name:"Control Systems",
                 description:[
                     "Understanding of control systems and the implementation of feedback control loops.",
-                    "Proficiency in designing Proportional-Integral-Derivative (PID) controllers."
                 ],
-                targets:[]
+                targets:[
+                    "PID",
+                ]
             },
             {
                 icon: "/images/Icons/pcbdesign.svg",

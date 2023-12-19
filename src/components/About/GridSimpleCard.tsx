@@ -11,7 +11,7 @@ interface GridSimpleCardProp {
 export default function GridSimpleCard({ items }: GridSimpleCardProp) {
     return (
         <div className='flex justify-center'>
-            <div className=" grid  gap-3  grid-cols-3  2xl:grid-cols-2" >
+            <div className=" grid  gap-3  grid-cols-3" >
                 {items.map((item, key) => (
                     <SimpleCard
                         key={key}

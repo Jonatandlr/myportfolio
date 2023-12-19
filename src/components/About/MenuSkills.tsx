@@ -14,8 +14,8 @@ export default function MenuSkills({ items, activeMenu }: MenuSkillsProps) {
 
   const [active, setActive] = React.useState(items[0].id)
   return (
-    <div className='flex items-center bg-Custom-blueLight w-fit rounded-[20px] px-5 py-5'>
-      <div className='w-fit h-[150px] '>
+    <div className='flex items-center bg-Custom-blueLight w-fit h-fit rounded-[20px] px-5 py-2 my-3'>
+      <div className='w-fit '>
         {items.map((item, index) => (
           <motion.div
             onClick={() => {

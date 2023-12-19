@@ -12,10 +12,10 @@ const useMenuSkills = () => {
             id:"Mech",
             name:"Mechatronics",
         },
-        {
-            id:"sF",
-            name:"Soft Skills",
-        },
+        // {
+        //     id:"sF",
+        //     name:"Soft Skills",
+        // },
     ]
 
     return  menu 

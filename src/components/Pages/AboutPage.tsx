@@ -7,8 +7,8 @@ import SkillComponent from '../About/SkillComponent'
 export default function AboutPage() {
     const currentTec = useCurrentTecnologies()
     return (
-        <div id="About" className='lg:px-28 lg:py-10 md:px-10 px-5'>
-            <div className='lg:my-10 my-1'>
+        <div id="About" className='lg:px-28 lg:py-10 md:px-10 px-5 flex flex-col justify-center items-center'>
+            <div className='lg:my-10 my-1 w-full'>
                 <TittlePage title='About Me' index='02.' />
             </div>
             <div className='font-bold text-5xl lg:flex lg:flex-row flex-col justify-evenly items-center lg:mb-10'>
@@ -23,13 +23,14 @@ export default function AboutPage() {
                         programs such as SolidWorks.
                     </p>
                 </div>
-                <div className='  bg-Custom-blueDark rounded-[20px] p-5 w-fit'>
-                    <h4 className=' text-white 2xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-semibold' >Some of the technologies I have been working with:</h4>
+                <div className='  bg-Custom-blueDark rounded-[20px] p-5 w-fit lg:mb-0 mb-2'>
+                    <h4 className=' text-white 2xl:text-2xl xl:text-xl lg:text-base  md:text-base text-sm font-normal' >Some of the technologies I have been working:</h4>
                     <div className=' py-5'>
                         <GridSimpleCard items={currentTec} />
                     </div>
                 </div>
             </div>
+            
 
             <SkillComponent />
 

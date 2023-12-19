@@ -16,7 +16,7 @@ function TittlePage({ title, index }: { title: string, index: string }) {
             animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
             transition={{ duration: 1 }}
         >
-            <div className='flex  font-Poppins font-bold mt-6 2xl:text-7xl lg:text-6xl md:text-5xl text-3xl'>
+            <div className='flex font-Poppins font-bold mt-6 2xl:text-7xl lg:text-6xl md:text-5xl text-3xl w-full'>
                 <h3 className='TitlePage--variantRed'>{index}</h3>
                 <h3 className="TitlePage">{title}</h3>
             </div>
