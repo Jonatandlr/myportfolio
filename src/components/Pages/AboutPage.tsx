@@ -7,7 +7,7 @@ import SkillComponent from '../About/SkillComponent'
 export default function AboutPage() {
     const currentTec = useCurrentTecnologies()
     return (
-        <div id="About" className='xl:px-52 lg:px-28 py-5 md:px-10 px-5 flex flex-col items-center'>
+        <div id="About" className=' lg:px-28 py-5 md:px-10 px-5 flex flex-col items-center'>
             <div className='lg:my-10 my-1 w-full'>
                 <TittlePage title='About Me' index='02.' variant='gray' />
             </div>
