@@ -18,7 +18,7 @@ export default function AboutPage() {
                     </div>
                     <p className='md:w-[588px] w-fit text-black 2xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-normal'>
                         Mechatronics Engineering student at Tecnológico de Monterrey with a passion for robotics and
-                        especially programming which has led me to acquire various skillsin both front-end and back-end
+                        especially programming which has led me to acquire various skills in both front-end and back-end
                         modules as well as other skills in mechanical design in
                         programs such as SolidWorks.
                     </p>
