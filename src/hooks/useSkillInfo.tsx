@@ -81,6 +81,14 @@ const useSkillInfo = () => {
             {
                 icon: "/images/Icons/framer.png",
                 name: "Framer",
+            },
+            {
+                icon: "/images/Icons/multisim.jpeg",
+                name: "MultiSim",
+            },
+            {
+                icon: "/images/Icons/SolidWorksLogo.png",
+                name: "SolidWorks",
             }
             
         ],

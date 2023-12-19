@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from '@/components/Pages/Home'
 import AboutPage from '@/components/Pages/AboutPage'
+import ExperiencePage from '@/components/Pages/ExperiencePage'
 
 export default function Principal() {
   return (
@@ -8,6 +9,8 @@ export default function Principal() {
       <Home/>
 
       <AboutPage/>
+
+      <ExperiencePage />
 
     </main>
   )

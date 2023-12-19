@@ -27,6 +27,13 @@
     -webkit-text-stroke: 2px #383838 ;
     /* text-align: end; */
 }
+.TitlePageVariant {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    /* text-align: end; */
+}
+
+
 .TitlePage--variantRed {
     color: transparent;
     -webkit-text-stroke: 2px #F80040  ;
