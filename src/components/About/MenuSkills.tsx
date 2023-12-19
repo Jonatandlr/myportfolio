@@ -29,7 +29,7 @@ export default function MenuSkills({ items, activeMenu }: MenuSkillsProps) {
             {active === item.id && (
               <motion.div
                 layoutId="bubble"
-                transition={{ type: "spring", bounce: 0.2, duration: 0.8 }}
+                transition={{ type: "spring", bounce: 0.1, duration: 0.6 }}
                 className='mr-2 border-r-4 border-Custom-red'></motion.div>)}
             <h4 className="lg:text-xl font-bold  whitespace-nowrap">{item.name}</h4>
           </motion.div>

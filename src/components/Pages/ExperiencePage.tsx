@@ -6,13 +6,13 @@ import useMenuExperience from '@/hooks/useMenuExperience'
 
 export default function ExperiencePage() {
   const menuExp = useMenuExperience()
-  const [active, setActive] = React.useState("RoBorregos")
+  const [activeExp, setActiveExp] = React.useState(menuExp[0].id)
 
 
-  const activeMenu =(item:string)=>{
-    if (["RB"].includes(item)) {
-      setActive(item);
-    }
+  const activeExpMenu =(item:string)=>{
+      console.log(item)
+      setActiveExp(item);
+    
   }
   return (
     <div id='Experience' className='h-screen bg-Custom-blueDark lg:px-28 py-5 md:px-10 px-5 '>
@@ -21,7 +21,7 @@ export default function ExperiencePage() {
       </div>
 
       <div className='lg:px-10'>
-        <MenuExperience items={menuExp} activeMenu={activeMenu} />
+        <MenuExperience items={menuExp} activeMenu={activeExpMenu} />
       </div>
 
 

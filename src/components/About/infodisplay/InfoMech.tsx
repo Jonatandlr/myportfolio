@@ -15,14 +15,15 @@ export default function InfoMech({ elements }: InfoMechProps) {
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-2'>
             {elements.map((element, index) => (
                 <div key={index} className='w-[258px] h-[203px]  rounded-[20px] p-5'>
-                    <div className='flex border-b-4 border-Custom-red w-fit'>
-                        <Image
-                            className='mr-1'
-                            width={24}
-                            height={24}
-                            src={element.icon}
-                            referrerPolicy="no-referrer"
-                            alt="Image" />
+                    <div className='flex border-b-4 border-Custom-red w-fit justify-center items-center'>
+                        <div className="relative w-[24px] h-[24px] mr-1 ">
+                            <Image
+                                className='mr-1'
+                                fill={true}
+                                src={element.icon}
+                                referrerPolicy="no-referrer"
+                                alt="Image" />
+                        </div>
                         <div className=" text-white text-opacity-50 text-2xl font-normal font-['Poppins'] whitespace-nowrap">{element.name}</div>
                     </div>
 
@@ -41,6 +42,6 @@ export default function InfoMech({ elements }: InfoMechProps) {
             ))}
         </div>
 
-       
+
     )
 }
