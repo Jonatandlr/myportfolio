@@ -39,7 +39,9 @@ export default function ExperienceDisplay({ select, info }: ExperienceDisplayPro
             </div>
             <div className='flex flex-wrap justify-start '>
                 {data.images.map((item, index) => (
-                    <div className='lg:w-[253px] lg:h-[177px] w-[200px] h-[124px] rounded-[20px] relative flex lg:flex-row flex-col overflow-hidden mr-2 mb-2'>
+                    <div
+                        key={index}
+                        className='lg:w-[253px] lg:h-[177px] w-[200px] h-[124px] rounded-[20px] relative flex lg:flex-row flex-col overflow-hidden mr-2 mb-2'>
                         <Image
                             className='object-cover'
                             fill={true}
