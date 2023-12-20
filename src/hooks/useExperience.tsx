@@ -4,7 +4,7 @@ const useExperience=()=>{
             title:"RoBorregos",
             position:"Software Developer",
             date:"2022 - Present",
-            description:"Software Developer for Tecnológico de Monterrey's Representative Robotics Team, 'Roborregos,' contributing to innovative robotic projects and competitions.",
+            description:"Software Developer for Tecnológico de Monterrey's Representative Robotics Team RoBorregos, contributing to innovative robotic projects and competitions.",
             targets:[
                 "Programming",
                 "Python",

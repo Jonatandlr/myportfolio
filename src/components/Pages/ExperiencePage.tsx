@@ -12,21 +12,25 @@ export default function ExperiencePage() {
   const [activeExp, setActiveExp] = React.useState(menuExp[0].id)
 
 
-  const activeExpMenu =(item:string)=>{
-      console.log(item)
-      setActiveExp(item);
-    
+  const activeExpMenu = (item: string) => {
+    console.log(item)
+    setActiveExp(item);
+
   }
   return (
-    <div id='Experience' className=' bg-Custom-blueDark lg:px-28 md:px-10 py-10 px-5 '>
-      <div className='lg:my-10 my-4 w-full'>
-        <TittlePage title='Experience' index='03.' variant='Dark'/>
-      </div>
+    <div id='Experience' className='bg-Custom-blueDark 2xl:px-60 xl:px-40 lg:px-28  md:px-24  px-10 py-10 '>
 
-      <div className='lg:px-10 flex md:flex-row flex-col '>
-        <MenuExperience items={menuExp} activeMenu={activeExpMenu} />
+      <div>
 
-        <ExperienceDisplay select={activeExp as "RB"|"PR"} info={infoExp}/>
+        <div className='lg:my-10 my-4 w-full'>
+          <TittlePage title='Experience' index='03.' variant='Dark' />
+        </div>
+
+        <div className='lg:px-10 flex md:flex-row flex-col '>
+          <MenuExperience items={menuExp} activeMenu={activeExpMenu} />
+
+          <ExperienceDisplay select={activeExp as "RB" | "PR"} info={infoExp} />
+        </div>
       </div>
     </div>
   )

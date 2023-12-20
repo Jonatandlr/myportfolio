@@ -22,7 +22,7 @@ export default function MenuExperience({ items, activeMenu }: MenuExperienceProp
                         setActive(element.id)
                     }}
 
-                        className={`transition border-l-8 border-black font-medium text-[20px] cursor-pointer  px-5 py-2 mx-2 relative`}>
+                        className={`border-l-8 border-black font-medium text-[20px] cursor-pointer  px-5 py-2 mx-2 relative`}>
 
                         {active === element.id && (
                             <motion.div
