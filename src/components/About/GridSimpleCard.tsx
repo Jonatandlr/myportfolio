@@ -1,5 +1,5 @@
 
-import SimpleCard from '@/components/About/SimpleCard'
+// import SimpleCard from '@/components/About/SimpleCard'
 import Targets from '@/components/Targets'
 
 interface GridSimpleCardProp {
@@ -22,7 +22,7 @@ export default function GridSimpleCard({ items }: GridSimpleCardProp) {
         //         ))}
         //     </div>
         // </div>
-        <div className='flex flex-wrap mb-3  '>
+        <div className='flex flex-wrap'>
             {items.map((item, index) => (
                 <Targets key={index} name={item.name} />
             )

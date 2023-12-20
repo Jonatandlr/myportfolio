@@ -8,7 +8,7 @@ export default function AboutPage() {
     const currentTec = useCurrentTecnologies()
     return (
         <div id="About" className=' 2xl:px-60 xl:px-40 lg:px-28 py-5 md:px-24  px-10 flex flex-col items-center'>
-           
+            <div className='max-w-[1280px]'>
                 <div className='lg:my-10 my-1 w-full'>
                     <TittlePage title='About Me' index='02.' variant='gray' />
                 </div>
@@ -29,7 +29,7 @@ export default function AboutPage() {
                     <div >
                         <div className='max-w-[400px] bg-Custom-blueDark rounded-[20px] lg:p-5 p-4 w-fit lg:mb-0 mb-2 text-center'>
                             <h4 className=' text-white 2xl:text-2xl xl:text-xl lg:text-base  md:text-base text-sm font-normal' >Some of the technologies I have been working:</h4>
-                            <div className='lg:py-5 flex justify-center'>
+                            <div className='lg:pt-2 flex justify-center h-fit'>
                                 <GridSimpleCard items={currentTec} />
                             </div>
                         </div>
@@ -38,7 +38,8 @@ export default function AboutPage() {
 
 
                 <SkillComponent />
-           
+            </div>
+
 
 
         </div>
