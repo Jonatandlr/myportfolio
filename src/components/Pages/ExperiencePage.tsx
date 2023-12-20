@@ -5,7 +5,6 @@ import MenuExperience from '../Experience/MenuExperience'
 import ExperienceDisplay from '../Experience/ExperienceDisplay'
 import useMenuExperience from '@/hooks/useMenuExperience'
 import useExperience from '@/hooks/useExperience'
-import { initFlowbite } from 'flowbite'
 
 export default function ExperiencePage() {
   const menuExp = useMenuExperience()
