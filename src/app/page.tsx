@@ -1,16 +1,38 @@
+"use client"
 import React from 'react'
+import NavBar from '@/components/NavBar/NavBar'
 import Home from '@/components/Pages/Home'
 import AboutPage from '@/components/Pages/AboutPage'
 import ExperiencePage from '@/components/Pages/ExperiencePage'
+import { useState } from 'react'
+import { motion } from 'framer-motion'
 
 export default function Principal() {
+  const [animationComplete, setAnimationComplete] = useState(false)
   return (
     <main className='font-Poppins'>
-      <Home/>
+      {!animationComplete && (<div className='bg-[#242424] flex justify-center items-center h-screen'>
 
-      <AboutPage/>
+        <motion.div className='absolute w-[100px] h-[100px] bg-Custom-red'
+          animate={{
+            opacity: [0, 1, 1, 1, 1, 0],
+            scale: [0, 1, 1.5, 1.5, 1],
+            rotate: [45, 45, 270, 45],
+            borderRadius: ["10%", '10%', '50%', '10%'],
+          }}
+          transition={{
+            duration: 2
+          }}
+          onAnimationComplete={() => { setAnimationComplete(true) }}
+        ></motion.div>
+      </div>)}
 
-      <ExperiencePage />
+      {animationComplete && (<>
+        <NavBar />
+        <Home />
+        <AboutPage />
+        <ExperiencePage />
+      </>)}
 
     </main>
   )

@@ -22,23 +22,24 @@ export default function ExperienceDisplay({ select, info }: ExperienceDisplayPro
     const data = info[select]
 
     return (
-        <div className='text-white ml-6 font-normal w-[600px] h-[504px]'>
+        <div className='text-white md:ml-6 ml-2 font-normal lg:w-[600px] w-fit h-[504px]'>
             {/* <button onClick={()=>{console.log(data.title)}}>dasd</button> */}
-            <h5 className='font-normal text-[48px] border-b-4 border-Custom-red w-fit'>{data.title}</h5>
+            <h5 className='font-normal lg:text-[48px] md:text-[40px] text-[30px] border-b-4 border-Custom-red w-fit'>{data.title}</h5>
             <div className='flex'>
                 <h6 className='font-semibold text-[16px] mr-3 text-Custom-red'>{data.position}</h6>
                 <h6 className=' opacity-50'>{data.date}</h6>
             </div>
-            <p className='lg:text-xl text-sm my-2'>{data.description}</p>
-            <div className='flex mb-3  '>
+
+            <p className='lg:text-xl text-lg my-2'>{data.description}</p>
+            <div className='flex flex-wrap mb-3  '>
                 {data.targets.map((item, index) => (
                     <Targets key={index} name={item} />
                 )
                 )}
             </div>
-            <div>
+            <div className='flex flex-wrap justify-start '>
                 {data.images.map((item, index) => (
-                    <div className='w-[253px] h-[177px] rounded-[20px] relative flex lg:flex-row flex-col overflow-hidden mr-2'>
+                    <div className='lg:w-[253px] lg:h-[177px] w-[200px] h-[124px] rounded-[20px] relative flex lg:flex-row flex-col overflow-hidden mr-2 mb-2'>
                         <Image
                             className='object-cover'
                             fill={true}
@@ -47,7 +48,6 @@ export default function ExperienceDisplay({ select, info }: ExperienceDisplayPro
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             alt="Image" />
                     </div>
-                    
                 )
                 )}
             </div>
