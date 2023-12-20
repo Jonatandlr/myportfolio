@@ -13,7 +13,7 @@ export default function NavBar() {
                     <SubTitleNav index="01." title=" Home" href='#' />
                     <SubTitleNav index="02." title=" About Me" href='#About' />
                     <SubTitleNav index="03." title=" Experience" href='#Experience' />
-                    <SubTitleNav index="04." title=" Proyects" href='#' />
+                    <SubTitleNav index="04." title=" Proyects" href='#Proyects' />
                 </div>
 
                 <div className=' lg:hidden block'>
