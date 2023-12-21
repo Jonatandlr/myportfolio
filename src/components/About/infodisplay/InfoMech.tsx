@@ -12,7 +12,7 @@ interface InfoMechProps {
 
 export default function InfoMech({ elements }: InfoMechProps) {
     return (
-        <div className='grid lg:grid-cols-2 grid-cols-1 gap-2'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-2'>
             {elements.map((element, index) => (
                 <div key={index} className='w-[258px] h-[203px]  rounded-[20px] p-5'>
                     <div className='flex border-b-4 border-Custom-red w-fit justify-center items-center'>

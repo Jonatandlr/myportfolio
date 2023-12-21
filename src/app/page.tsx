@@ -22,7 +22,7 @@ export default function Principal() {
             borderRadius: ["20%", '20%', '50%', '20%'],
           }}
           transition={{
-            duration: 2
+            duration: 1.5
           }}
           onAnimationComplete={() => { setAnimationComplete(true) }}
         ></motion.div>

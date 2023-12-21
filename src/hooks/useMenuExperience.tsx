@@ -4,10 +4,10 @@
             id:"RB",
             name:"RoBorregos",
         },
-        {
-            id:"PR",
-            name:"proyes",
-        },
+        // {
+        //     id:"PR",
+        //     name:"proyes",
+        // },
       
      
        

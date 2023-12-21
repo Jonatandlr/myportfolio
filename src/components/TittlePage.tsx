@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 function TittlePage({ title, index,variant}: { title: string, index: string,variant:string}) {
 
     const [ref, inView] = useInView({
-        triggerOnce: false, // true: solo se ejecuta una vez, false se ejecuta cada vez que este a la vista
+        triggerOnce: true, // true: solo se ejecuta una vez, false se ejecuta cada vez que este a la vista
         threshold: 0.5, // Se considerará en vista cuando el 50% del elemento sea visible
     });
     return (
@@ -14,7 +14,7 @@ function TittlePage({ title, index,variant}: { title: string, index: string,vari
             ref={ref}
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 1}}
         >
             {
                 variant === 'gray' ?

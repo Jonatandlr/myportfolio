@@ -20,7 +20,7 @@ export default function Home() {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1.5 }}
+            transition={{ease:'linear', duration:1}}
             className='bg-Homebg bg-no-repeat text-white bg-cover bg-center h-screen flex flex-col justify-center items-center'
         >
             <motion.h1

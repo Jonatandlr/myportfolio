@@ -15,7 +15,7 @@ export default function InfoPL({ elements }: InfoPLProps) {
   return (
     <div className='px-3 grid md:grid-cols-2 grid-cols-1 gap-3 xl:gap-8 2xl:gap-14 '>
       {elements.map((item, index) => (
-        <div key={index} className='w-full h-[131.12px]  bg-Custom-blueLight rounded-[20px] flex py-1'>
+        <div key={index} className='w-full h-[131.12px]  bg-Custom-blueLight rounded-[20px] flex py-1 pr-1'>
           <div className='flex flex-col justify-center items-center'>
             <RoundedPhoto icon={item.icon} />
             <div className='flex flex-col  items-center'>

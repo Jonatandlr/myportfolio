@@ -21,14 +21,12 @@ export default function ExperiencePage() {
   return (
     <div id='Experience' className='bg-Custom-blueDark 2xl:px-60 xl:px-40 lg:px-28  md:px-24  px-10 py-10 flex lg:justify-start 2xl:justify-center'>
       <div className='max-w-[1280px]'>
-
-        <div className='lg:my-10 my-4 w-full'>
+        <div className='lg:mt-10 my-6 w-full'>
           <TittlePage title='Experience' index='03.' variant='Dark' />
         </div>
 
         <div className='lg:px-10 flex md:flex-row flex-col '>
           <MenuExperience items={menuExp} activeMenu={activeExpMenu} />
-
           <ExperienceDisplay select={activeExp as "RB" | "PR"} info={infoExp} />
         </div>
       </div>
