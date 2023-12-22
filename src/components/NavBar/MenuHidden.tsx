@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import SubTitleNav from './SubTitleNav';
+import ButtonResume from './ButtonResume';
 
 const DropdownMenu = ({ isOpen, toggleMenu }: { isOpen: boolean, toggleMenu: () => void }) => {
   const dropdownVariants = {
@@ -26,6 +27,7 @@ const DropdownMenu = ({ isOpen, toggleMenu }: { isOpen: boolean, toggleMenu: () 
               <SubTitleNav click={toggleMenu} index="02." title=" About Me" href='#About' />
               <SubTitleNav click={toggleMenu} index="03." title=" Experience" href='#Experience' />
               <SubTitleNav click={toggleMenu} index="04." title=" Proyects" href='#Proyects' />
+              <ButtonResume />
             </div>
             <div className='flex justify-center'>
               <button
