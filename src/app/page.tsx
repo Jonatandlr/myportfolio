@@ -11,7 +11,7 @@ import ProyectsPage from '@/components/Pages/ProyectsPage'
 export default function Principal() {
   const [animationComplete, setAnimationComplete] = useState(false)
   return (
-    <main className='font-Poppins'>
+    <div className='font-Poppins bg-Custom-blueDark'>
       {!animationComplete && (<div className='bg-[#242424] flex justify-center items-center h-screen'>
 
         <motion.div className='absolute w-[100px] h-[100px] bg-Custom-red rounded-[20px]'
@@ -36,6 +36,6 @@ export default function Principal() {
         <ProyectsPage />
       </>)}
 
-    </main>
+    </div>
   )
 }
