@@ -11,7 +11,7 @@ export default function ProyectsPage() {
             className='bg-Custom-blueDark 2xl:px-60 xl:px-40 lg:px-28  md:px-24  px-10 py-10 flex lg:justify-start 2xl:justify-center'>
             <div className=' max-w-[1280px] w-full'>
                 <div className='w-full'>
-                    <TittlePage title='Proyects' index='04.' variant='Dark' />
+                    <TittlePage title='Projects' index='04.' variant='Dark' />
                 </div>
                 <div className='md:my-10 my-5 grid md:grid-cols-2 grid-cols-1 gap-5'>
                     {
