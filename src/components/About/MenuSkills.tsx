@@ -31,7 +31,7 @@ export default function MenuSkills({ items, activeMenu }: MenuSkillsProps) {
                 layoutId="bubble"
                 transition={{ type: "spring", bounce: 0.1, duration: 0.6 }}
                 className='mr-2 border-r-4 border-Custom-red'></motion.div>)}
-            <h4 className="font-medium text-[20px]  whitespace-nowrap">{item.name}</h4>
+            <h4 className="font-medium lg:text-[16px] md:text-[14px]  whitespace-nowrap">{item.name}</h4>
           </motion.div>
         ))}
       </div>

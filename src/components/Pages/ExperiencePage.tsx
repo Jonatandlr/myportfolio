@@ -1,5 +1,5 @@
 "use client"
-import React, { use } from 'react'
+import React from 'react'
 import TittlePage from '@/components/TittlePage'
 import MenuExperience from '../Experience/MenuExperience'
 import ExperienceDisplay from '../Experience/ExperienceDisplay'
@@ -10,7 +10,6 @@ export default function ExperiencePage() {
   const menuExp = useMenuExperience()
   const infoExp = useExperience()
   const [activeExp, setActiveExp] = React.useState(menuExp[0].id)
-  const [activeP, setActiveP] = React.useState(false)
 
 
   const activeExpMenu = (item: string) => {

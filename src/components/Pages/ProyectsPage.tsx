@@ -4,7 +4,7 @@ import ProyectsComponent from '@/components/Proyects/ProyectComponent'
 import useProjects from '@/hooks/useProjects'
 
 export default function ProyectsPage() {
-    const proyects=useProjects()
+    const proyects = useProjects()
     return (
         <div
             id='Proyects'
@@ -15,10 +15,10 @@ export default function ProyectsPage() {
                 </div>
                 <div className='md:my-10 my-5 grid md:grid-cols-2 grid-cols-1 gap-5'>
                     {
-                        proyects.map((proyect,index)=>{
-                            return(
+                        proyects.map((proyect, index) => {
+                            return (
                                 <div key={index} className='flex justify-center w-full '>
-                                    <ProyectsComponent data={proyect}/>
+                                    <ProyectsComponent data={proyect} />
                                 </div>
                             )
                         })

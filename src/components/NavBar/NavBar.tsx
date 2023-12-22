@@ -5,7 +5,7 @@ import ButtonResume from './ButtonResume'
 import ButtonMobileBar from './ButtonMobileBar'
 export default function NavBar() {
     return (
-        <div className='font-Poppins fixed z-20 w-screen text-white bg-black bg-opacity-60  lg:px-20 md:px-10 px-4 py-3 flex justify-between items-center'>
+        <div className='font-Poppins fixed z-20 w-screen text-white bg-black bg-opacity-60  lg:px-20 md:px-10 px-4 py-2 flex justify-between items-center'>
 
             <TittleNav title={"JonatanDLR"} />
             <div className='flex justify-center items-center'>

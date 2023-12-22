@@ -18,7 +18,7 @@ export default function AboutPage() {
                         <div className='lg:mb-5 my-1 font-semibold 2xl:text-5xl lg:text-4xl md:text-3xl text-2xl' >
                             <h4>Hi<span className="text-Custom-red">!</span> Im <span className='text-Custom-red'>Jonatan</span></h4>
                         </div>
-                        <p className='md:w-[588px] w-fit text-black 2xl:text-2xl lg:text-xl md:text-lg text-lg  font-normal'>
+                        <p className='md:max-w-[550px] max-w-fit text-black 2xl:text-2xl lg:text-xl md:text-lg text-lg  font-normal'>
                             <span className="text-black font-semibold">Mechatronics</span> Engineering student at Tecnológico de Monterrey with a
                             <span className='text-black font-semibold'> passion</span> for robotics and
                             especially <span className='text-black font-semibold'> programming</span> which has led me to acquire various skills in both <span className='text-black font-semibold border-b-4 border-Custom-red whitespace-nowrap'> front-end </span>

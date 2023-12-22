@@ -38,14 +38,14 @@ export default function Home() {
                 transition={{ duration: 1, delay: 0.8 }}
                 className='font-bold  text-center flex 2xl:text-6xl lg:text-5xl md:text-4xl text-3xl'
             >
-                Im<span className='text-transparent'>/</span><TypeWriter />
+                {"I'm"}<span className='invisible'>/</span><TypeWriter />
             </motion.span>
             <motion.div
                 variants={inicioElements}
                 initial="hidden"
                 animate="visible"
                 transition={{ duration: 1, delay: 1 }}
-                className='grid grid-cols-4 gap-5 2xl:text-6xl lg:text-5xl md:text-4xl text-3xl mt-10'
+                className='grid grid-cols-4 gap-5 2xl:text-6xl lg:text-6xl md:text-5xl text-4xl mt-10'
             >
                 <a href={useRedes().gitHub} target='_blank' rel="noreferrer"><FaGithub className='hover:text-Custom-red hover:scale-110' /></a>
                 <a href={useRedes().instagram} target='_blank' rel="noreferrer"><FaInstagram className='hover:text-Custom-red hover:scale-110' /></a>

@@ -4,20 +4,22 @@ const useSkillInfo = () => {
             {
                 name: "JavaScript",
                 icon: "/images/Icons/javascript.svg",
-                years: "2 Years",
+                years: "1 Years",
                 use: [
                     "Web Development",
-                    "Create web apps",
+                    "Frontend Development",
+                    "Backend with Node.js",
                 ],
             },
             
             {
                 name: "TypeScript",
                 icon: "/images/Icons/typescript.svg",
-                years: "1 Year",
+                years: "5 Months",
                 use: [
                     "Web Development",
-                    "Create web apps",
+                    "Frontend Development",
+                    "Development RESTful APIs"
                 ],
             },
             {
@@ -36,8 +38,8 @@ const useSkillInfo = () => {
                 years: "1 Year",
                 use: [
                     "Microcontrollers",
-                    "Robotics",
-                    "Competitive programming",
+                    "Embedded systems",
+                    "Algorithm programming",
                 ],
             },
         ],
@@ -89,6 +91,10 @@ const useSkillInfo = () => {
             {
                 icon: "/images/Icons/SolidWorksLogo.png",
                 name: "SolidWorks",
+            },
+            {
+                icon: "/images/Icons/nodejs.svg",
+                name: "NodeJS",
             }
             
         ],
@@ -110,19 +116,20 @@ const useSkillInfo = () => {
                 ],
                 targets:[
                     "PID",
+                    "System Modeling"
                 ]
             },
-            {
-                icon: "/images/Icons/pcbdesign.svg",
-                name:"PCB Design",
-                description:[
-                    "Proficiency in creating clear schematic diagrams using KiCad's tool, defining the logical structure of the circuit."
-                ],
-                targets:[
-                    "KiCad",
-                    "MultiSim",
-                ]
-            },
+            // {
+            //     icon: "/images/Icons/pcbdesign.svg",
+            //     name:"PCB Design",
+            //     description:[
+            //         "Proficiency in creating clear schematic diagrams using KiCad's tool, defining the logical structure of the circuit."
+            //     ],
+            //     targets:[
+            //         "KiCad",
+            //         "MultiSim",
+            //     ]
+            // },
         ],
         sF: {},
 

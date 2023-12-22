@@ -3,7 +3,7 @@ import React ,{useState, useEffect}from 'react'
 // import "@/app/globals.css"
 
 function TypeWriter() {
-    const words=['Student', 'Engineer', 'Developer', 'Designer']
+    const words=['Student', 'Engineer', 'Developer']
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [currentWord, setCurrentWord] = useState('');

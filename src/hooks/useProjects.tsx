@@ -14,7 +14,7 @@ const useProjects = () => {
             page: "/archivos/Reporte_Reto_JohnDeere.docx.pdf",
             title: 'Johnn Deere Challenge',
             description:'Creating of a device capable of forming a curvature on a metal sheet without generating deformation at the ends.',
-            targets: ["Manufacturing", "Materials", "SolisWorks","Simulations"],
+            targets: ["Manufacturing", "Materials", "SolidWorks","Simulations"],
             github:""
             
         },
@@ -30,7 +30,7 @@ const useProjects = () => {
         {
             image: '/images/imagesProyects/RetoCarroArenaPLCS.png',
             page: "/archivos/CarritoDeArenaPLCs.pdf",
-            title: 'Loading and unloading system',
+            title: 'Loading System',
             description:'Designing a Sand Loading and Unloading System with PLC and a human interface to control it.',
             targets: ["PLCs", "Mechanical Design","Automation", "Scheneider"],
             github:""

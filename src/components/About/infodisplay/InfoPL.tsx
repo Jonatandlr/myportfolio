@@ -13,9 +13,9 @@ interface InfoPLProps {
 
 export default function InfoPL({ elements }: InfoPLProps) {
   return (
-    <div className='px-3 grid md:grid-cols-2 grid-cols-1 gap-3 xl:gap-8 2xl:gap-14 '>
+    <div className='lg:px-3 px-1 grid md:grid-cols-2 grid-cols-1 gap-3 xl:gap-8 2xl:gap-14 '>
       {elements.map((item, index) => (
-        <div key={index} className='w-full h-[131.12px]  bg-Custom-blueLight rounded-[20px] flex py-1 pr-1'>
+        <div key={index} className='w-full h-[131.12px]  bg-Custom-blueLight rounded-[20px] flex py-1 px-2'>
           <div className='flex flex-col justify-center items-center'>
             <RoundedPhoto icon={item.icon} />
             <div className='flex flex-col  items-center'>
@@ -24,9 +24,9 @@ export default function InfoPL({ elements }: InfoPLProps) {
             </div>
           </div>
 
-          <div className='w-full'>
+          <div className='w-full flex  item-center'>
             {/* <div className="text-white text-opacity-50 text-[15px] font-normal font-['Poppins']">Use</div> */}
-            <div className="text-white opacity-50 xl:text-[14px] lg:text-[12px] text-[12px] font-normal font-['Poppins'] ml-1 pt-5">
+            <div className="text-white opacity-50 xl:text-[14px] lg:text-[12px] text-[12px] font-normal ml-1 flex flex-col justify-center items-start">
               {item.use.map((item, index) => (
                 <li key={index} className="list-item">
                 {item}
