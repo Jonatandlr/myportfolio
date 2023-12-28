@@ -15,7 +15,7 @@ const useSkillInfo = () => {
             {
                 name: "TypeScript",
                 icon: "/images/Icons/typescript.svg",
-                years: "5 Months",
+                years: "6 Months",
                 use: [
                     "Web Development",
                     "Frontend Development",

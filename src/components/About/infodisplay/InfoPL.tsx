@@ -20,7 +20,7 @@ export default function InfoPL({ elements }: InfoPLProps) {
             <RoundedPhoto icon={item.icon} />
             <div className='flex flex-col  items-center'>
               <div className="text-center w-[92.53px] h-[21.37px] text-white xl:text-base text-sm font-semibold font-['Poppins']">{item.name}</div>
-              <div className="text-center w-[57.09px] h-[23.31px] text-white text-opacity-50 xl:text-[15px] text-[12px] font-normal font-['Poppins']">{item.years}</div>
+              <div className="text-center w-fit h-[23.31px] text-white text-opacity-50 xl:text-[15px] text-[12px] font-normal font-['Poppins']">{item.years}</div>
             </div>
           </div>
 
