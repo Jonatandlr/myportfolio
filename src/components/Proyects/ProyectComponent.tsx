@@ -17,7 +17,7 @@ export default function ProyectComponent({ data }: ProyectComponentProps) {
 
 
     return (
-        <div className='xl:w-[538px] xl:h-[528px]   w-full h-full border-4 border-Custom-blueLight rounded-[20px] group hover:scale-105 transition duration-500'>
+        <div className='xl:w-[490px] xl:h-[490px]   w-full h-full border-4 border-Custom-blueLight rounded-[20px] group hover:scale-105 transition duration-500'>
             <div className='bg-slate-300 w-full h-[200px]  blur-sm group-hover:blur-0 rounded-t-[20px]  relative overflow-hidden'>
                 <Image
                     src={data.image}
@@ -61,7 +61,7 @@ export default function ProyectComponent({ data }: ProyectComponentProps) {
                         }
                     </div>
                 </div>
-                <p className=' text-white text-opacity-50 lg:text-[20px] text-[12px]  font-normal mb-2'>{data.description}</p>
+                <p className=' text-white text-opacity-50 lg:text-[16px] text-[12px]  font-normal mb-2'>{data.description}</p>
                 {/* <p dangerouslySetInnerHTML={{__html:data.description}}/> */}
 
                 <ul className='flex flex-wrap  lg:py-8 py-3'>
