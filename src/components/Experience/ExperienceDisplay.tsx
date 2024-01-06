@@ -37,11 +37,11 @@ export default function ExperienceDisplay({ select, info }: ExperienceDisplayPro
                 )
                 )}
             </div>
-            <div className='flex flex-wrap justify-start '>
+            <div className='grid grid-cols-2 '>
                 {data.images.map((item, index) => (
                     <div
                         key={index}
-                        className='lg:w-[253px] lg:h-[177px] md:w-[200px] md:h-[124px] w-[140px] h-[100px] rounded-[20px] relative flex lg:flex-row flex-col overflow-hidden mr-2 mb-2'>
+                        className='lg:w-[253px] lg:h-[177px] md:w-[200px] md:h-[124px]  h-[100px] rounded-[20px] relative flex lg:flex-row flex-col overflow-hidden mr-2 mb-2'>
                         <Image
                             className='object-cover'
                             fill={true}
