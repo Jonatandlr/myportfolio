@@ -27,15 +27,6 @@ const useProjects = () => {
 
         },
         {
-            image: '/images/imagesProyects/3enLinea.png',
-            page: "https://3-en-linea-react.vercel.app",
-            title: '3 in a row',
-            description: 'Developed a web-based Tic Tac Toe game, providing an interactive and enjoyable experience. ',
-            targets: ["ReactJS", "CSS", "HTML", "Vercel"],
-            github: "https://github.com/Jonatandlr/3EnLineaReact"
-
-        },
-        {
             image: '/images/imagesProyects/RetoCarroArenaPLCS.png',
             page: "/archivos/CarritoDeArenaPLCs.pdf",
             title: 'Loading System',

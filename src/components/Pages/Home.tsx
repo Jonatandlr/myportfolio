@@ -36,7 +36,7 @@ export default function Home() {
                 initial="hidden"
                 animate="visible"
                 transition={{ duration: 1, delay: 0.8 }}
-                className='font-bold  text-center flex 2xl:text-6xl lg:text-5xl md:text-4xl text-3xl'
+                className='font-semibold  text-center flex 2xl:text-4xl lg:text-3xl text-2xl'
             >
                 {"I'm"}<span className='invisible'>/</span><TypeWriter />
             </motion.span>

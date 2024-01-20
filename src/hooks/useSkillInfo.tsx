@@ -4,7 +4,7 @@ const useSkillInfo = () => {
             {
                 name: "JavaScript",
                 icon: "/images/Icons/javascript.svg",
-                years: "1 Years",
+                years: "2 years",
                 use: [
                     "Web Development",
                     "Frontend Development",
@@ -15,7 +15,7 @@ const useSkillInfo = () => {
             {
                 name: "TypeScript",
                 icon: "/images/Icons/typescript.svg",
-                years: "6 Months",
+                years: "1 year",
                 use: [
                     "Web Development",
                     "Frontend Development",
@@ -25,7 +25,7 @@ const useSkillInfo = () => {
             {
                 name: "Python",
                 icon: "/images/Icons/python.svg",
-                years: "2 Year",
+                years: "3 year",
                 use: [
                     "Robotic programming",
                     "Computer vision",
@@ -35,7 +35,7 @@ const useSkillInfo = () => {
             {
                 name: "C++",
                 icon: "/images/Icons/Clogo.jpg",
-                years: "1 Year",
+                years: "3 Year",
                 use: [
                     "Microcontrollers",
                     "Embedded systems",
