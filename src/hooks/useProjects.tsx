@@ -20,7 +20,7 @@ const useProjects = () => {
         {
             image: '/images/imagesProyects/RetoJohnDeere.png',
             page: "/archivos/Reporte_Reto_JohnDeere.docx.pdf",
-            title: 'Johnn Deere Challenge',
+            title: 'John Deere Challenge',
             description: 'Creating of a device capable of forming a curvature on a metal sheet without generating deformation at the ends.',
             targets: ["Manufacturing", "Materials", "SolidWorks", "Simulations"],
             github: ""
