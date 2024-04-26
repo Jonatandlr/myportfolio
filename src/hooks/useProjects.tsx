@@ -9,13 +9,21 @@ const useProjects = () => {
             github: "https://github.com/Jonatandlr/JohnDeereAutomatization"
 
         },
+        // {
+        //     image: '/images/imagesProyects/TodoAPP.png',
+        //     page: "https://todolistapp-umber.vercel.app/",
+        //     title: 'To Do List',
+        //     description: 'To Do List is a web application that allows you to create a list of tasks to be done, and mark them as completed.',
+        //     targets: ["Nextjs", "Express", "REST API", "Vercel"],
+        //     github: "https://github.com/Jonatandlr/ToDoList"
+        // },
         {
-            image: '/images/imagesProyects/TodoAPP.png',
-            page: "https://todolistapp-umber.vercel.app/",
-            title: 'To Do List',
-            description: 'To Do List is a web application that allows you to create a list of tasks to be done, and mark them as completed.',
-            targets: ["Nextjs", "Express", "REST API", "Vercel"],
-            github: "https://github.com/Jonatandlr/ToDoList"
+            image: '/images/imagesProyects/cafeCacao.png',
+            page: "https://cafecacao.vercel.app/",
+            title: 'Cafe Cacao Landing',
+            description: 'Landing page for a coffee shop, with a responsive design and a contact form.',
+            targets: ["NextJs", "Tailwind", "TypeScript", "Responsive Design"],
+            github: "https://github.com/Jonatandlr/LandingPageCoffee"
         },
         {
             image: '/images/imagesProyects/RetoJohnDeere.png',
