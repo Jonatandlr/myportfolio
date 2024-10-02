@@ -1,6 +1,14 @@
 const useProjects = () => {
     const data = [
         {
+            image: '/images/imagesProyects/jdrlink.png',
+            page: "https://jdrlink.vercel.app/",
+            title: 'JDRLink Shortener',
+            description: 'Development of a URL shortener that allows users to shorten links and customize the hash, with an AI-based suggestion feature for link names.',
+            targets: ["Next.js", "TypeScript", "TailwindCSS", "NextAuth", "Prisma", "SupaBase", "HuggingFace AI"],
+            github: "https://github.com/Jonatandlr/jdrlink"
+        },
+        {
             image: '/images/imagesProyects/RetoAutomatizacionIndustrial.png',
             page: "/archivos/automatizacionInd.pdf",
             title: 'PID-Controlled Vehicle',

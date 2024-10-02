@@ -3,7 +3,7 @@ const useCurrentTecnologies = () => {
     const technologies=[
         {
             icon:"/images/Icons/typescript.svg",
-            name:"Typescript",
+            name:"C++",
         },
         {
             icon:"/images/Icons/nextjs.svg",
