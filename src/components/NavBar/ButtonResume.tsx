@@ -5,7 +5,7 @@ function ButtonResume() {
         <a
             target='_blank'
             rel="noreferrer"
-            href='/archivos/CV.pdf/'
+            href='/archivos/CV2.pdf/'
            >
             <button  className='bg-Custom-blueDark rounded-3xl px-3 h-[40px] hover:scale-110 active:scale-90 transition ease-in-out'>
 
