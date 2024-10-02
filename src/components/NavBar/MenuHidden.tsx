@@ -27,7 +27,9 @@ const DropdownMenu = ({ isOpen, toggleMenu }: { isOpen: boolean, toggleMenu: () 
               <SubTitleNav click={toggleMenu} index="02." title=" About Me" href='#About' />
               <SubTitleNav click={toggleMenu} index="03." title=" Experience" href='#Experience' />
               <SubTitleNav click={toggleMenu} index="04." title=" Projects" href='#Proyects' />
-              <ButtonResume />
+              <div className='flex justify-center'>
+                <ButtonResume />
+              </div>
             </div>
             <div className='flex justify-center'>
               <button
